@@ -1,0 +1,2 @@
+- name: Deployment Action
+  uses: chrnorm/deployment-action@v2.0.7
