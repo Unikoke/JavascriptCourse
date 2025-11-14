@@ -1,1 +1,1 @@
-Code from learning javascropt courses.
+Code from learning javascript courses.
