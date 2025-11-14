@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ES6 JavaScript Classes</title>
+</head>
+
+<body>
+<header>
+    <h1>ES6 JavaScript Classes</h1>
+</header>
+
+<main>
+    <p>
+        Open your F12 Browser Tools to view the results.
+    </p>
+</main>
+
+<script src="classes/Movie.js"></script>
+
+<script>
+    'use strict';
+    let movie = new Movie();
+    movie.filmId = 1;
+    movie.name = "Young Frankenstein";
+    movie.genres = "Comedy";
+    movie.actors = "Gene Wilder,Marty Feldman";
+
+    console.log(`Film ID: ${movie.filmId}`);
+    console.log(`Name: ${movie.name}`);
+    console.log(`Genres: ${movie.genres}`);
+    console.log(`Actors: ${movie.actors}`);
+
+
+</script>
+</body>
+</html>
+
