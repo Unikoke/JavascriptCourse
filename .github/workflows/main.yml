@@ -23,6 +23,6 @@ jobs:
         run: npm run build --if-present
 
       - name: Deployment Action
-        uses: chrnorm/deployment-action@v2.0.7
+        uses: chrnorm/deployment-action@55729fcebec3d284f60f5bcabbd8376437d696b1
         # If the action requires inputs, add them under `with:` here.
         # Do NOT commit secrets. Configure any required secrets via the repository's Settings -> Secrets.
